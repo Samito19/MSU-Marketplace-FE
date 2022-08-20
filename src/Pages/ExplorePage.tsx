@@ -65,7 +65,7 @@ function ExplorePage() {
                     "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8bWFjYm9va3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=800&q=60",
                   title: "Macbook Air M1 -256GB",
                   rating: 4,
-                  description: "This is a nice Macbook pro 2022",
+                  description: "This is a nice Macbook pro",
                   price: "699",
                 },
                 {
