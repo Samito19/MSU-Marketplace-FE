@@ -43,7 +43,7 @@ function LandingPage() {
     if (
       emailAddress.match(
         // eslint-disable-next-line
-        /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@(montclair.edu)$/
+        /^(([^<>()[\]\\.,;:\s@"]+(\.[^<>()[\]\\.,;:\s@"]+)*)|(".+"))@(montclair.edu)$/
       )
     ) {
       axios({
