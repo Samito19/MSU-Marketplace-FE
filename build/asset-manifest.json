@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.cdcf2cb8.css",
+    "main.js": "/static/js/main.be108fb7.js",
+    "static/js/787.b44bbe73.chunk.js": "/static/js/787.b44bbe73.chunk.js",
+    "static/media/msu-marketplace-logo.svg": "/static/media/msu-marketplace-logo.d72ffccd7a6e6fb58388ca6f843adaa1.svg",
+    "static/media/hawk-logo.svg": "/static/media/hawk-logo.816fcf393fd66026e158ebb429993cdf.svg",
+    "static/media/msu-logo.svg": "/static/media/msu-logo.4bfd5cd9573d1d9d312f664708f2fd26.svg",
+    "static/media/handdrawn-underline.svg": "/static/media/handdrawn-underline.1b8f8e7d7d6ed2e9d939699f8839c94f.svg",
+    "static/media/support-mail-icon.svg": "/static/media/support-mail-icon.b03fce184d846a334616c86014393d7e.svg",
+    "static/media/background-cirlces-accent.svg": "/static/media/background-cirlces-accent.a6f4d228596f27dc6d37.svg",
+    "static/media/new-icon.svg": "/static/media/new-icon.f2790ca350fb20bd5041f4fc820f07a2.svg",
+    "static/media/instagram-icon.svg": "/static/media/instagram-icon.16bf7a2d1c93fd5708668dbb57cc0ce7.svg",
+    "static/media/network-icon.svg": "/static/media/network-icon.7687d712300f26c8ae75857791266395.svg",
+    "static/media/register-blob.svg": "/static/media/register-blob.ef44153cb875aa665fcb.svg",
+    "static/media/satisfaction-icon.svg": "/static/media/satisfaction-icon.bd69f38784b658f5cdc8ab8d5b152913.svg",
+    "static/media/website-icon.svg": "/static/media/website-icon.7e815b0ccdba5b79a88a527e302eb16f.svg",
+    "static/media/tiktok-icon.svg": "/static/media/tiktok-icon.f4b0f68a2bbc2671ea642174458307c0.svg",
+    "static/media/security-icon.svg": "/static/media/security-icon.9f0fa20e355a9e46eff460cd7d78c3a9.svg",
+    "static/media/red-star-icon.svg": "/static/media/red-star-icon.b75e3cb5e65bfa02bb481f89aaa6e84e.svg",
+    "static/media/twitter-icon.svg": "/static/media/twitter-icon.e026cbe3a04e15dbce62cb4b454eb35d.svg",
+    "static/media/linkedin-icon.svg": "/static/media/linkedin-icon.91d46802cb6a2c0fbdd4e70d4e7155e0.svg",
+    "static/media/google.svg": "/static/media/google.17675d09a4cae94c6a9a17e1b164b180.svg",
+    "static/media/yellow-star.svg": "/static/media/yellow-star.bb655e6efb41e5b95d40775af044f43b.svg",
+    "static/media/youtube-icon.svg": "/static/media/youtube-icon.0f12c4764439f60a19dd87c3ede4cc48.svg",
+    "static/media/github.svg": "/static/media/github.7c2b277031fc9aeb24c033ff9332c319.svg",
+    "index.html": "/index.html",
+    "static/media/facebook-icon.svg": "/static/media/facebook-icon.51fe468fb90b038020473653225975ba.svg",
+    "static/media/hamburger-menu.svg": "/static/media/hamburger-menu.c7376ba601f3b5b7bb8a1c1d5899f211.svg",
+    "static/media/facebook.svg": "/static/media/facebook.13aa0acfc52eb382665ff1e8737d69fc.svg",
+    "main.cdcf2cb8.css.map": "/static/css/main.cdcf2cb8.css.map",
+    "main.be108fb7.js.map": "/static/js/main.be108fb7.js.map",
+    "787.b44bbe73.chunk.js.map": "/static/js/787.b44bbe73.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cdcf2cb8.css",
+    "static/js/main.be108fb7.js"
+  ]
+}
