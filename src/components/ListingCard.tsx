@@ -4,7 +4,7 @@ import YellowStar from "../assets/yellow-star.svg";
 function ListingCard(props: any) {
   return (
     <div className="h-[21rem] min-w-[18rem] w-[18rem] bg-white shadow-n5 rounded-[7px] flex flex-col overflow-hidden cursor-pointer">
-      <div className="h-[60%] w-full bg-blue-500">
+      <div className="h-[60%] w-full">
         <img src={props.image} alt="" className="h-full w-full object-cover" />
       </div>
       <span className="ml-3 mt-3 font-light underline hover:text-msu-red">

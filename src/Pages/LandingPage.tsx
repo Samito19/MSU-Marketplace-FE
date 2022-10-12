@@ -17,7 +17,7 @@ import Facebook from "../assets/facebook-icon.svg";
 
 import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
-
+import axios from "axios";
 
 function LandingPage() {
   const navigate = useNavigate();
@@ -29,6 +29,9 @@ function LandingPage() {
   const [confirmPassword, setConfirmPassword] = useState<string>("");
   const [grade, setGrade] = useState<string>("");
   const [major, setMajor] = useState<string>("");
+
+  const [registrationSuccess, setRegistrationSuccess] =
+    useState<boolean>(false);
 
   useEffect(() => {
     document.title = "MSU | Marketplace";
@@ -43,14 +46,19 @@ function LandingPage() {
         /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@(montclair.edu)$/
       )
     ) {
-      console.log({
-        firstName,
-        lastName,
-        emailAddress,
-        grade,
-        major,
-        password,
-        confirmPassword,
+      axios({
+        method: "post",
+        url: "http://localhost:3001/create-user",
+        data: {
+          firstName,
+          lastName,
+          emailAddress,
+          password,
+        },
+      }).then((response) => {
+        if (response.data.details === "USER_CREATION_SUCCESS") {
+          setRegistrationSuccess(true);
+        }
       });
     }
   };
@@ -78,9 +86,12 @@ function LandingPage() {
           >
             Explore
           </button>
-          <button onClick={() => {
+          <button
+            onClick={() => {
               navigate("/login", { replace: false });
-            }} className="hidden lg:block ml-6 mr-10 font-medium text-[1em] py-[0.35rem] px-5 rounded-[5px] text-white shadow-n5 bg-msu-red hover:bg-white border-2 border-msu-red hover:text-msu-red transition-all">
+            }}
+            className="hidden lg:block ml-6 mr-10 font-medium text-[1em] py-[0.35rem] px-5 rounded-[5px] text-white shadow-n5 bg-msu-red hover:bg-white border-2 border-msu-red hover:text-msu-red transition-all"
+          >
             Log In
           </button>
         </header>
@@ -287,6 +298,7 @@ function LandingPage() {
           className="hidden md:block absolute h-[3.5rem] left-[90%] lg:left-[95%] top-[92%] cursor-pointer lg:hover:translate-y-[-0.5rem] transition-all"
         />
       </div>
+      {registrationSuccess ? (<div className=""></div>) : null}
     </div>
   );
 }
